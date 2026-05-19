@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 
 export default function Partners() {
-  const partners = ['AWS Partner Network', 'Microsoft Cloud', 'Google Cloud', 'Cisco', 'VMware Enterprise', 'Ignets', 'Cogent'];
+  const partners = ['AWS Partner Network', 'Microsoft Cloud', 'Google Cloud', 'Cisco', 'VMware Enterprise'];
 
   return (
     <section id="partners" className="section bg-light-alt" style={{ padding: '4rem 0', borderBottom: '1px solid rgba(0,0,0,0.03)', borderTop: '1px solid rgba(0,0,0,0.03)' }}>
