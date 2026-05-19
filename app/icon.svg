@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="100%" height="100%">
+  <defs>
+    <!-- Premium Royal Indigo & Cyan Gradient -->
+    <linearGradient id="brand-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <!-- Subtle drop shadow for the monogram -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#0B1329" flood-opacity="0.15" />
+    </filter>
+  </defs>
+  
+  <!-- Outer glowing circle ring -->
+  <circle cx="16" cy="16" r="14.5" fill="none" stroke="url(#brand-grad)" stroke-width="1.8" />
+  
+  <!-- Stylized B&T Monogram -->
+  <g filter="url(#shadow)">
+    <!-- B Element (Left vertical & loop) -->
+    <path d="M9.5,8.5 H13.5 A3.5,3.5 0 0,1 17,12 A3.5,3.5 0 0,1 13.5,15.5 H9.5 Z" fill="none" stroke="url(#brand-grad)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M9.5,15.5 H14 A3.5,3.5 0 0,1 17.5,19 A3.5,3.5 0 0,1 14,22.5 H9.5 Z" fill="none" stroke="url(#brand-grad)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="9.5" y1="8" x2="9.5" y2="23" stroke="url(#brand-grad)" stroke-width="2.2" stroke-linecap="round" />
+    
+    <!-- T Element (Merged seamlessly on top right) -->
+    <path d="M19,8.5 H23.5" fill="none" stroke="url(#brand-grad)" stroke-width="2.2" stroke-linecap="round" />
+    <line x1="21.25" y1="8.5" x2="21.25" y2="22.5" stroke="url(#brand-grad)" stroke-width="2.2" stroke-linecap="round" />
+  </g>
+</svg>
